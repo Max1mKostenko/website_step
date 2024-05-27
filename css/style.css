@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+
+body {
+    font-family: 'Poppins';
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.parallax {
+    background: url(../img/bg.jpg);
+    background-attachment: fixed;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.parallax h1 {
+    color: #ffffff;
+    font-size: 70px;
+}
+
+.parallax .mask {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba(0,0,0,.7);
+    z-index: 2;
+}
+
+.parallax-content {
+    z-index: 3;
+}
+
+.page-content {
+    padding: 100px 50px;
+}
