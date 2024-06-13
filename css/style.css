@@ -3,16 +3,23 @@
 /* header */
 
 .header{
-    background: url(../img/bg.jpg);
+    background: url(../img/bg4.jpg);
     min-height: 750px;
 
     background-size: cover;
     background-position: center;
 }
 
+.container{
+    border-radius: 0px 0px 16px 16px;
+}
+
+ul{
+    display: flex;
+    gap: 32px;
+}
 li{
     display: inline-block;
-    margin-right: 50px;
 }
 
 li a{
@@ -21,21 +28,17 @@ li a{
 }
 
 li a:hover{
-    color: #ffffff;
+    color: orange;
     text-decoration: none;
 }
 
-.menu{
-    position: relative;
-    top: 40px;
-}
 
-.main-flex{
+.main-header{
     display: flex;
     min-height: 700px;
 }
 
-.second-flex{
+.main-flex{
     margin: auto;
 }
 
@@ -51,6 +54,23 @@ li a:hover{
     padding: 20px 60px;
     border-radius: 5px;
 }
+
+.explore_btn {
+    background-color: black;
+    color: #ffffff;
+    padding: 20px 60px;
+    border-radius: 5px;
+    display: inline-block;
+    text-decoration: none;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.explore_btn:hover {
+    background-color: orange;
+    transform: scale(1.1);
+}
+
+
 
 h1{
     margin-bottom: 40px;
@@ -104,8 +124,17 @@ body {
 }
 
 .page-content {
-    padding: 100px 50px;
+    padding: 70px 70px;
+    text-align: center;
 }
+
+.carousel-caption h5{
+    color: #ffffff;
+    text-shadow: 2px 2px 4px #000000;
+    font-size: 26px;
+
+}
+
 
 /* end main */
 
